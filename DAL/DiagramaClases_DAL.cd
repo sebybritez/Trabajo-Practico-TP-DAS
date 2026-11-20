@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.Acceso">
+    <Position X="4" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>GABBAAAAQAAAAAAAAAAAAAAAAACAAABAIAABAAAAAAE=</HashCode>
+      <FileName>Acceso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.MP_USUARIO">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="acceso" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAAAAAAQAAAAAAAAIAAAAAAAAAQAAAEAAA=</HashCode>
+      <FileName>MP_USUARIO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="acceso" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DAL.MP_BITACORA">
+    <Position X="0.5" Y="3" Width="2.25" />
+    <Members>
+      <Field Name="acceso" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MP_BITACORA.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="acceso" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DAL.MP_PARTIDA">
+    <Position X="7.25" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="acceso" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MP_PARTIDA.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="acceso" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DAL.MP_BACKUP">
+    <Position X="7.25" Y="3" Width="2.25" />
+    <Members>
+      <Field Name="acceso" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAEAAACAAAAAAAAAABAAAA=</HashCode>
+      <FileName>MP_BACKUP.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="acceso" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
